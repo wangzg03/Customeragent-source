@@ -1,0 +1,30 @@
+{
+  "name": "dialogue-evaluation-frontend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node tools.mjs dev",
+    "build": "node tools.mjs build",
+    "preview": "node tools.mjs preview",
+    "check": "node tools.mjs check"
+  },
+  "dependencies": {
+    "axios": "^1.6.5",
+    "echarts": "6.1.0",
+    "element-plus": "^2.6.1",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/node": "^20.11.0",
+    "@vitejs/plugin-vue": "6.0.10",
+    "typescript": "5.9.3",
+    "vite": "8.3.4",
+    "vue-tsc": "3.3.13"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
